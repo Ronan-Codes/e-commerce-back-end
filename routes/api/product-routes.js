@@ -95,7 +95,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// In productTagIdArr, why is it just `tag_id`, and not something like `tag_id: [i]`? 
+// In productTagIdArr, why is it just `tag_id`, and not something like `tag_id: [i]`?
 
 // update product
 router.put('/:id', (req, res) => {
@@ -103,7 +103,7 @@ router.put('/:id', (req, res) => {
   Product.update(req.body, {
     where: {
       id: req.params.id,
-    },
+    }
   })
     .then((product) => {
       // find all associated tags from ProductTag

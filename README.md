@@ -28,10 +28,10 @@
 1. Clone repository
 2. In the application's root terminal type `npm install`
     * This will install all the dependencies listed in package.json
-3. Create a .env file in project's root location and insert MySQL credentials
+3. Create an .env file at root of application and insert MySQL credentials (username & password). DB_Name must be 'ecommerce_db'.
     * DB_NAME='ecommerce_db'
-    * DB_USER='<username>'
-    * DB_PW='<password>'
+    * DB_USER='username'
+    * DB_PW='password'
 
 ## Walkthrough
 * Walkthrough video [link](https://drive.google.com/file/d/1NhVI9K_RlhmehK_Ag-PMCcErovEmOK3d/view)
